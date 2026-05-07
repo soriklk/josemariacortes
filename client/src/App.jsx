@@ -8,11 +8,7 @@ import Layout from "./components/Layout";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
- 
-
-  useEffect(() => {
-  
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <BrowserRouter>
